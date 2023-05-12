@@ -1,3 +1,5 @@
+* [Instalação ReadTheDocs](instalacao.md)
+
 # **Criando uma documentação em MarkDown com ReadTheDocs**
 
 #### **OBS: Certifique-se que o pip está instalado no seu ambiente**
