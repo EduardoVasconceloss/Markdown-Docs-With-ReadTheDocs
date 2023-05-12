@@ -10,7 +10,7 @@ sys.path.insert(0, os.path.abspath('/home/eduardo/rtd_docs/'))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Instalacao RTD'
+project = 'Documentações - Read The Docs'
 copyright = '2023, eduardo'
 author = 'eduardo'
 release = '1.0'
