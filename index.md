@@ -1,6 +1,6 @@
 # Bem-vindo(a) a documentação sobre ReadTheDocs!
 
-Conteúdos:
+## Conteúdos:
 - [Instalando o ReadTheDocs](instalacao.md)
 - [Documentando em MarkDown](documentacao.md)
 
