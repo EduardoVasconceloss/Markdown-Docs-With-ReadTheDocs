@@ -1,16 +1,11 @@
-- Desenvolvido pela equipe Tiex
-
-- Autores: Eduardo Vasconcelos
-
-- Data de criação: 11/05/2023
-
+## Documentações extras:
 * [Criando uma documentação em MarkDown com ReadTheDocs](index.md)
 
-**Instalação do ReadTheDocs**
+# **Instalação do ReadTheDocs**
 
 **OBS: Certifique-se que o Docker está instalado no seu ambiente**
 
-# ReadTheDocs
+### ReadTheDocs
 
 
 ### **1°** Clonar o repositório do Github 
@@ -25,3 +20,10 @@
 ###  **4°** Agora acesse o ReadTheDocs via navegador 
 **<pre><code>http://"IP-da-máquina":8001</pre></code>**
 
+---
+## Licença
+
+#### Desenvolvido pela equipe Tiex
+#### Autores: Eduardo Vasconcelos
+#### Data de criação: 11/05/2023
+##
