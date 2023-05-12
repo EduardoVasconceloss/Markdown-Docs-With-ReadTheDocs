@@ -19,8 +19,7 @@
 
 ---
 ## Licença
-
-#### ``Desenvolvido pela equipe Tiex``
-#### ``Autores: Eduardo Vasconcelos``
-#### ``Data de criação: 11/05/2023``
-##
+>Desenvolvido pela equipe Tiex<br>
+Autores: Eduardo Vasconcelos<br>
+Data de criação: 11/05/2023
+>
