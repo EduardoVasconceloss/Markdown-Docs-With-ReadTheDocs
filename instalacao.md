@@ -1,6 +1,3 @@
-## Documentações extras:
-* [Criando uma documentação em MarkDown com ReadTheDocs](index.md)
-
 # **Instalação do ReadTheDocs**
 
 **OBS: Certifique-se que o Docker está instalado no seu ambiente**
