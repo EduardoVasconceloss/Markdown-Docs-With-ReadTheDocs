@@ -12,3 +12,9 @@ O ReadTheDocs é uma plataforma de hospedagem e geração de documentação para
 ## Seja participativo
 Compartilhe suas ideias! Se você tiver ideias para melhorar o ReadTheDocs ou a documentação em si, por favor, compartilhe-as!
 
+---
+## Licença
+>Desenvolvido pela equipe Tiex<br>
+Autores: Eduardo Vasconcelos<br>
+Data de criação: 11/05/2023
+>
