@@ -1,4 +1,4 @@
-### Você já instalou o ReadTheDocs? Caso não, veja a documentação abaixo:
+### Documentações necessárias:
 * [Instalação ReadTheDocs](instalacao.md)
 
 # **Criando uma documentação em MarkDown com ReadTheDocs**
@@ -106,7 +106,7 @@ blocos de código usando três crases. Por exemplo:**
 
 **``xdg-open /caminho/para/o/arquivo.html``**
 
-Fazendo o deploy da sua documentação no ReadTheDocs
+## Fazendo o deploy da sua documentação no ReadTheDocs
 
 **OBS: Você deve fazer um commit do diretório do projeto que foi criado
 com sphinx para o github**
@@ -166,8 +166,10 @@ o repositório abaixo**
 
 ### **7°** Veja sua documentação clicando em “Visualizar Documentação”
 
-### 
+---
+## Licença
 
-### 
-
-### 
+##### Desenvolvido pela equipe Tiex
+##### Autores: Eduardo Vasconcelos
+##### Data de criação: 11/05/2023
+## 
