@@ -16,5 +16,5 @@ Compartilhe suas ideias! Se você tiver ideias para melhorar o ReadTheDocs ou a 
 ## Licença
 >Desenvolvido pela equipe Tiex<br>
 Autores: Eduardo Vasconcelos<br>
-Data de criação: 11/05/2023
+Data de criação: 12/05/2023
 >
