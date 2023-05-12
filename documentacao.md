@@ -1,4 +1,4 @@
-# **Documentaando em MarkDown com ReadTheDocs**
+# **Documentando em MarkDown com ReadTheDocs**
 
 **OBS: Certifique-se que o pip está instalado no seu ambiente**
 
