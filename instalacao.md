@@ -12,7 +12,7 @@
 **```mkdir rtd && chown -R 1005:205 /var/local/rtd```**
 
 ### **3°** Entre no diretório que você clonou do github e rode esse comando 
-**```docker run -it -v /var/local/rtd:/data -p 8001:8000 -e RTD_PRODUCTION_DOMAIN=""IP-da-máquina":8001" -d seblon/readthedocs-docker```* 
+**```docker run -it -v /var/local/rtd:/data -p 8001:8000 -e RTD_PRODUCTION_DOMAIN=""IP-da-máquina":8001" -d seblon/readthedocs-docker```**
 
 ###  **4°** Agora acesse o ReadTheDocs via navegador 
 **```http://"IP-da-máquina":8001```**
