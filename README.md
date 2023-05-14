@@ -1,17 +1,20 @@
 # **Criando uma documentação em MarkDown com ReadTheDocs**
 
-#### **OBS: Certifique-se que o pip está instalado no seu ambiente**
+#### **OBS: Caso ache necessário, você pode criar um ambiente virtual com o python**
 
 ## Configurando ReadTheDocs + MarkDown
 
-### **1°** Instale o sphinx 
+### **1°** Instale o pip
+**``sudo apt install python3-pip``**
+
+### **2°** Instale o sphinx 
   **``pip install sphinx``**
 
-### **2°** Crie um diretório para a documentação e execute o sphinx
+### **3°** Crie um diretório para a documentação e execute o sphinx
 
 **``cd “diretório-criado” && sphinx-quickstart``**
 
-### **3°** Siga o seguinte passo a passo para configuração do seu diretório
+### **4°** Siga o seguinte passo a passo para configuração do seu diretório
 
 - **\> Separar os diretórios de origem e compilação (y/n) \[n\]: n**
 
@@ -23,11 +26,11 @@
 
 - **\> Idioma do projeto \[en\]: pt_BR**
 
-### **4°** Abra o arquivo “conf.py” 
+### **5°** Abra o arquivo “conf.py” 
 
 **``nano conf.py``**
 
-### **5°** Configure da seguinte maneira para leitura de documentações em .md
+### **6°** Configure da seguinte maneira para leitura de documentações em .md
 
 **\# -- General configuration
 ---------------------------------------------------**
@@ -47,7 +50,7 @@
 
 **html_static_path = \['\_static'\]**
 
-### **6°** Mude o nome do arquivo “index.rst” para “index.md” e altere seu conteudo
+### **7°** Mude o nome do arquivo “index.rst” para “index.md” e altere seu conteudo
 
 **``mv index.rst index.md && nano index.md``**
 
@@ -95,11 +98,11 @@ blocos de código usando três crases. Por exemplo:**
 
 **``print("Olá, mundo!")``**
 
-### **7°** Crie a página em HTML da sua documentação
+### **8°** Crie a página em HTML da sua documentação
 
 **``make html``**
 
-### **8°** Você pode acessar o html criado no seu navegador com esse comando
+### **9°** Você pode acessar o html criado no seu navegador com esse comando
 
 **``xdg-open /caminho/para/o/arquivo.html``**
 
