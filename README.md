@@ -106,7 +106,9 @@ blocos de código usando três crases. Por exemplo:**
 
 **``xdg-open /caminho/para/o/arquivo.html``**
 
-Fazendo o deploy da sua documentação no ReadTheDocs
+---
+
+## Fazendo o deploy da sua documentação no ReadTheDocs
 
 **OBS: Você deve fazer um commit do diretório do projeto que foi criado
 com sphinx para o github**
