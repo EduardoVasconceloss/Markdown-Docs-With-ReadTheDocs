@@ -1,17 +1,20 @@
-# **Documentando em MarkDown com ReadTheDocs**
+# **Criando uma documentação em MarkDown com ReadTheDocs**
 
-**OBS: Certifique-se que o pip está instalado no seu ambiente**
+#### **OBS: Caso ache necessário, você pode criar um ambiente virtual com o python**
 
 ## Configurando ReadTheDocs + MarkDown
 
-### **1°** Instale o sphinx 
-  **```pip install sphinx```**
+### **1°** Instale o pip
+**``sudo apt install python3-pip``**
 
-### **2°** Crie um diretório para a documentação e execute o sphinx
+### **2°** Instale o sphinx 
+  **``pip install sphinx``**
 
-**```cd “diretório-criado” && sphinx-quickstart```**
+### **3°** Crie um diretório para a documentação e execute o sphinx
 
-### **3°** Siga o seguinte passo a passo para configuração do seu diretório
+**``cd “diretório-criado” && sphinx-quickstart``**
+
+### **4°** Siga o seguinte passo a passo para configuração do seu diretório
 
 - **\> Separar os diretórios de origem e compilação (y/n) \[n\]: n**
 
@@ -23,12 +26,12 @@
 
 - **\> Idioma do projeto \[en\]: pt_BR**
 
-### **4°** Abra o arquivo “conf.py” 
+### **5°** Abra o arquivo “conf.py” 
 
-**```nano conf.py```**
+**``nano conf.py``**
 
-### **5°** Configure da seguinte maneira para leitura de documentações em .md
----
+### **6°** Configure da seguinte maneira para leitura de documentações em .md
+
 **\# -- General configuration
 ---------------------------------------------------**
 
@@ -47,15 +50,11 @@
 
 **html_static_path = \['\_static'\]**
 
----
+### **7°** Mude o nome do arquivo “index.rst” para “index.md” e altere seu conteudo
 
-### **6°** Mude o nome do arquivo “index.rst” para “index.md” e altere seu conteudo
+**``mv index.rst index.md && nano index.md``**
 
-**```mv index.rst index.md && nano index.md```**
-
----
-- **Exemplo de estrutura em MarkDown:**
-
+- **Exemplo de estrutura em MarkDown**
 
 **\# Título Principal**
 
@@ -97,17 +96,17 @@ Por exemplo:**
 **Você pode destacar trechos de código usando crases (\`) ou criar
 blocos de código usando três crases. Por exemplo:**
 
-**```print("Olá, mundo!")```**
+**``print("Olá, mundo!")``**
+
+### **8°** Crie a página em HTML da sua documentação
+
+**``make html``**
+
+### **9°** Você pode acessar o html criado no seu navegador com esse comando
+
+**``xdg-open /caminho/para/o/arquivo.html``**
 
 ---
-
-### **7°** Crie a página em HTML da sua documentação
-
-**```make html```**
-
-### **8°** Você pode acessar o html criado no seu navegador com esse comando
-
-**```xdg-open /caminho/para/o/arquivo.html```**
 
 ## Fazendo o deploy da sua documentação no ReadTheDocs
 
@@ -128,16 +127,13 @@ com sphinx para o github**
 
 ### **4°** Clique em “importar manualmente” e siga esses passos
 
+**Nome: \<Nome do projeto\>**
 
->**Nome: \<Nome do projeto\>**
+**URL do Repositório: \<url do repositório github\>**
 
->**URL do Repositório: \<url do repositório github\>**
+**Tipo de Repositório: Git**
 
->**Tipo de Repositório: Git**
-
-> **Edite as opções avançadas do projeto: Sim**
-
-
+- **Edite as opções avançadas do projeto: Sim**
 
 **OBS: Caso queira um repositório com tudo configurado, você pode clonar
 o repositório abaixo**
@@ -146,17 +142,17 @@ o repositório abaixo**
 
 ### **5°** Continue a importação seguindo esses passos
 
->**Description: \#Opcional**
+**Description: \#Opcional**
 
->**Tipo Documentação: \<Sphinx Html\>**
+**Tipo Documentação: \<Sphinx Html\>**
 
->**Idioma: \<Portuguese\>**
+**Idioma: \<Portuguese\>**
 
->**Linguagem de Programação : \<Only Words\>**
+**Linguagem de Programação : \<Only Words\>**
 
->**Tags: \#Opcional**
+**Tags: \#Opcional**
 
->**Página do Projeto: \#Opcional**
+**Página do Projeto: \#Opcional**
 
 ### **6°** Clique em finalizado e espere, provavelmente você terá um erro devido a branch escolhida pelo ReadTheDocs, mude as configurações
 
@@ -172,9 +168,8 @@ o repositório abaixo**
 
 ### **7°** Veja sua documentação clicando em “Visualizar Documentação”
 
----
-## Licença
->Desenvolvido pela equipe Tiex<br>
-Autores: Eduardo Vasconcelos<br>
-Data de criação: 11/05/2023
->
+### 
+
+### 
+
+### 
